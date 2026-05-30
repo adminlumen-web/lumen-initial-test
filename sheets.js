@@ -1,4 +1,4 @@
-const SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzkxS8uL3z5iLUzl2dSle8TZ1UavGprz5TLoTgzCUkHzJmvdCl39IN7FB9WXS5V9sk/exec';
 
 export async function sendResultToSheet(data) {
 
