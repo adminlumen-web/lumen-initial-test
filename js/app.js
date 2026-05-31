@@ -3,22 +3,22 @@ import {
   shuffleArray,
   getFeedbackByScore,
   showScreen
-} from './utils.js';
+} from 'js/utils.js';
 
 import {
   generateQuizSet,
   renderQuestion,
   handleAnswer,
   updateProgress
-} from './quiz.js';
+} from 'js/quiz.js';
 
 import {
   exportCertificatePNG
-} from './certificate.js';
+} from 'js/certificate.js';
 
 import {
   sendResultToSheet
-} from './sheets.js';
+} from 'js/sheets.js';
 
 const PASS_PERCENTAGE = 75;
 const TOTAL_QUESTIONS = 30;
