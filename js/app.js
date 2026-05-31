@@ -68,7 +68,7 @@ function initializeQuiz() {
   score = 0;
   currentQuestionIndex = 0;
 
-  quizData = generateQuizSet(allQuestions);
+  quizData = generateQuizSet(questionBank);
 
   console.log("ALL QUESTIONS:", allQuestions);
   console.log("ALL QUESTIONS LENGTH:", allQuestions.length);
