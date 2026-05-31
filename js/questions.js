@@ -82,14 +82,7 @@ export const allQuestions = [
     { "id": 76, "category": "Note Reading", "question": "Vòng quãng 5 (Circle of Fifths) được dùng để làm gì?", "answers": ["Xác định tốc độ của bài hát.", "Xác định các thang âm và số lượng dấu hóa (thăng/giáng).", "Xác định các ký hiệu âm lượng.", "Xác định các loại nốt nhạc."], "correctAnswer": "Xác định các thang âm và số lượng dấu hóa (thăng/giáng).", "explanation": "Vòng quãng 5 là công cụ trực quan để tổ chức 12 tông giọng trong âm nhạc, thể hiện mối quan hệ giữa các giọng và số lượng dấu thăng/giáng tương ứng." },
     { "id": 77, "category": "Note Reading", "question": "Sự khác biệt giữa quãng Hòa âm (Harmonic Interval) và quãng Giai điệu (Melodic Interval)?", "answers": ["Quãng Hòa âm là khi các nốt được chơi liên tiếp; Quãng Giai điệu là khi các nốt được chơi đồng thời.", "Quãng Hòa âm là khi các nốt được chơi đồng thời; Quãng Giai điệu là khi các nốt được chơi liên tiếp.", "Cả hai đều cùng chức năng.", "Quãng Hòa âm chỉ dùng cho nhạc cụ."], "correctAnswer": "Quãng Hòa âm là khi các nốt được chơi đồng thời; Quãng Giai điệu là khi các nốt được chơi liên tiếp.", "explanation": "Quãng Hòa âm tạo nên hòa âm (Harmony), Quãng Giai điệu tạo nên giai điệu (Melody)." },
     { "id": 78, "category": "Note Reading", "question": "Dấu hoàn (♮ - Natural) có hiệu lực trong bao lâu khi là dấu hóa bất thường?", "answers": ["Đến cuối bài nhạc", "Đến cuối ô nhịp", "Đến hết dòng nhạc", "Chỉ áp dụng cho nốt liền kề"], "correctAnswer": "Đến cuối ô nhịp", "explanation": "Dấu hoàn (cũng như dấu thăng, giáng bất thường) chỉ có hiệu lực cho nốt đó và các nốt cùng tên, cùng cao độ trong phạm vi ô nhịp đó." },
- {
-    "id": 79,
-    "category": "Rhythm & Meter",
-    "question": "Trong nhịp 3/4, con số 3 ở trên cho biết điều gì?",
-    "answers": ["Cho biết có 4 phách trong mỗi ô nhịp.", "Cho biết có 3 phách trong mỗi ô nhịp.", "Cho biết nốt đen bằng 1 phách.", "Cho biết nốt trắng bằng 1 phách."],
-    "correctAnswer": "Cho biết có 3 phách trong mỗi ô nhịp.",
-    "explanation": "Trong số chỉ nhịp 3/4, con số 3 ở trên chỉ số lượng phách trong một ô nhịp (có 3 phách)."
-  },
+    { "id": 79, "category": "Rhythm & Meter", "question": "Trong nhịp 3/4, con số 3 ở trên cho biết điều gì?", "answers": ["Cho biết có 4 phách trong mỗi ô nhịp.", "Cho biết có 3 phách trong mỗi ô nhịp.", "Cho biết nốt đen bằng 1 phách.", "Cho biết nốt trắng bằng 1 phách."], "correctAnswer": "Cho biết có 3 phách trong mỗi ô nhịp.", "explanation": "Trong số chỉ nhịp 3/4, con số 3 ở trên chỉ số lượng phách trong một ô nhịp (có 3 phách)." },
     { "id": 80, "category": "Rhythm & Meter", "question": "Trong nhịp 4/4, nốt trắng bằng bao nhiêu phách?", "answers": ["1", "2", "3", "4"], "correctAnswer": "2", "explanation": "Nốt trắng (Half Note) có giá trị bằng một nửa nốt tròn. Trong nhịp 4/4 (nốt đen bằng 1 phách), nốt tròn bằng 4 phách, do đó nốt trắng bằng 2 phách." },
     { "id": 81, "category": "Rhythm & Meter", "question": "Nốt đen có giá trị bằng bao nhiêu nốt móc đơn?", "answers": ["1", "2", "3", "4"], "correctAnswer": "2", "explanation": "Nốt đen (Quarter Note) tương đương với 2 nốt móc đơn (Eighth Note)." },
     { "id": 82, "category": "Rhythm & Meter", "question": "Ký hiệu 'C' (Common Time) ở đầu khuông nhạc thay cho nhịp nào?", "answers": ["2/4", "3/4", "4/4", "6/8"], "correctAnswer": "4/4", "explanation": "Ký hiệu 'C' là viết tắt của 'Common Time', tương đương với nhịp 4/4, là nhịp phổ biến nhất trong âm nhạc phương Tây." },
@@ -97,14 +90,7 @@ export const allQuestions = [
     { "id": 84, "category": "Rhythm & Meter", "question": "Dấu chấm dôi (dot) thêm bao nhiêu giá trị vào nốt nhạc?", "answers": ["Thêm 1/4 giá trị của nốt", "Thêm 1/3 giá trị của nốt", "Thêm 1/2 giá trị của nốt", "Thêm 2/3 giá trị của nốt"], "correctAnswer": "Thêm 1/2 giá trị của nốt", "explanation": "Dấu chấm dôi đặt sau nốt nhạc sẽ kéo dài trường độ của nốt đó thêm một nửa giá trị ban đầu của nó." },
     { "id": 85, "category": "Rhythm & Meter", "question": "Nhịp phức (Compound Meter), ví dụ 6/8, được đặc trưng bởi điều gì?", "answers": ["Tử số là số lẻ (3, 5, 7)", "Tử số là bội số của 3 (6, 9, 12)", "Mẫu số là 4 (nốt đen)", "Chỉ có 2 phách trong mỗi ô nhịp"], "correctAnswer": "Tử số là bội số của 3 (6, 9, 12)", "explanation": "Nhịp phức (Compound Meter) có phách chia ba, tức là mỗi phách được chia thành 3 nốt. Tử số thường là 6, 9 hoặc 12." },
     { "id": 86, "category": "Rhythm & Meter", "question": "Hiện tượng nghịch phách (Syncopation) xảy ra khi nào?", "answers": ["Trọng âm rơi vào phách mạnh của ô nhịp", "Trọng âm rơi vào phách yếu hoặc vị trí lẻ của phách", "Người hát/chơi nhạc nhấn mạnh tất cả các nốt", "Giá trị của nốt nhạc được giữ nguyên"], "correctAnswer": "Trọng âm rơi vào phách yếu hoặc vị trí lẻ của phách", "explanation": "Nghịch phách là sự nhấn mạnh bất thường, xảy ra khi trọng âm rơi vào các phách hoặc phần của phách thường là phách yếu, tạo hiệu ứng giật nhịp." },
-    {
-    "id": 87,
-    "category": "Rhythm & Meter",
-    "question": "Trong nhịp 2/4, con số 4 ở dưới có ý nghĩa gì?",
-    "answers": ["Có 4 phách trong mỗi ô nhịp", "Nốt trắng tương đương 1 phách", "Nốt tròn tương đương 1 phách", "Nốt đen tương đương 1 phách"],
-    "correctAnswer": "Nốt đen tương đương 1 phách",
-    "explanation": "Trong số chỉ nhịp 2/4, con số 4 ở dưới quy ước đơn vị đo lường của mỗi phách là nốt đen (1/4 của nốt tròn)."
-  },
+    { "id": 87, "category": "Rhythm & Meter", "question": "Trong nhịp 2/4, con số 4 ở dưới có ý nghĩa gì?", "answers": ["Có 4 phách trong mỗi ô nhịp", "Nốt trắng tương đương 1 phách", "Nốt tròn tương đương 1 phách", "Nốt đen tương đương 1 phách"], "correctAnswer": "Nốt đen tương đương 1 phách", "explanation": "Trong số chỉ nhịp 2/4, con số 4 ở dưới quy ước đơn vị đo lường của mỗi phách là nốt đen (1/4 của nốt tròn)." },
     { "id": 88, "category": "Rhythm & Meter", "question": "Giá trị của nốt tròn (Whole Note) bằng bao nhiêu lần nốt móc kép (Sixteenth Note)?", "answers": ["8", "12", "16", "32"], "correctAnswer": "16", "explanation": "Nốt tròn bằng 2 nốt trắng, 4 nốt đen, 8 nốt móc đơn, và 16 nốt móc kép." },
     { "id": 89, "category": "Rhythm & Meter", "question": "Dấu nối (Tie) có tác dụng gì?", "answers": ["Lặp lại nốt nhạc", "Ngắt âm giữa hai nốt", "Cộng gộp trường độ của hai nốt cùng cao độ liền kề", "Kéo dài thêm 1/2 giá trị của nốt đầu"], "correctAnswer": "Cộng gộp trường độ của hai nốt cùng cao độ liền kề", "explanation": "Dấu nối là một đường cong nối hai nốt nhạc cùng cao độ, khiến chúng được hát/chơi liền mạch như một nốt duy nhất với tổng trường độ của cả hai." },
     { "id": 90, "category": "Rhythm & Meter", "question": "Đâu là ví dụ về Nhịp hỗn hợp (Asymmetrical Meter)?", "answers": ["4/4", "3/4", "6/8", "5/4"], "correctAnswer": "5/4", "explanation": "Nhịp hỗn hợp là nhịp có số phách lẻ, được chia thành các nhóm phách đơn và phách kép (ví dụ 5/4 có thể chia thành 2+3 hoặc 3+2), tạo cảm giác không đều." },
@@ -112,19 +98,7 @@ export const allQuestions = [
     { "id": 92, "category": "Rhythm & Meter", "question": "Khi thấy dấu Lặp lại (Repeat Sign - hai chấm và vạch kép), ca viên cần làm gì?", "answers": ["Kết thúc bài hát", "Lặp lại đoạn nhạc từ đầu hoặc từ dấu lặp lại ngược", "Ngắt hơi thật dài", "Tăng tốc độ gấp đôi"], "correctAnswer": "Lặp lại đoạn nhạc từ đầu hoặc từ dấu lặp lại ngược", "explanation": "Dấu lặp lại chỉ dẫn người trình diễn quay lại và hát/chơi lại đoạn nhạc đã qua." },
     { "id": 93, "category": "Rhythm & Meter", "question": "Trong nhịp 4/4, các phách mạnh và yếu được phân bố như thế nào?", "answers": ["Mạnh - Yếu - Yếu - Yếu", "Mạnh - Yếu - Mạnh vừa - Yếu", "Mạnh - Mạnh - Yếu - Yếu", "Mạnh - Mạnh vừa - Yếu - Yếu"], "correctAnswer": "Mạnh - Yếu - Mạnh vừa - Yếu", "explanation": "Nhịp 4/4 có phách 1 là mạnh nhất, phách 3 là mạnh vừa (thứ cấp), và phách 2, 4 là yếu." },
     { "id": 94, "category": "Rhythm & Meter", "question": "Thuật ngữ *Fermata* (dấu mắt ngỗng) trên một nốt nhạc chỉ dẫn điều gì?", "answers": ["Hát với âm lượng thật to", "Hát nhanh hơn", "Ngân giữ nốt lâu hơn giá trị thực, theo ý chỉ huy", "Ngừng đột ngột"], "correctAnswer": "Ngân giữ nốt lâu hơn giá trị thực, theo ý chỉ huy", "explanation": "Fermata, hay dấu mắt ngỗng, là một ký hiệu giữ nốt nhạc hoặc khoảng lặng lâu hơn trường độ ghi trong bản nhạc, thường được quyết định bởi người chỉ huy." },
-  {
-    "id": 95,
-    "category": "Choir Practical Skills",
-    "question": "Khi nhìn vào bản nhạc hợp xướng, bạn thấy ký hiệu một dấu phẩy nhỏ ( , ) đặt phía trên khuông nhạc ở cuối câu hát. Ký hiệu này có ý nghĩa gì?",
-    "answers": [
-      "Ngắt giọng và lấy hơi (Breath Mark).",
-      "Hát nhấn mạnh nốt nhạc đó.",
-      "Hát luyến biểu cảm sang nốt tiếp theo.",
-      "Dừng lại tự do không tính phách (Dấu ngân tự do)."
-    ],
-    "correctAnswer": "Ngắt giọng và lấy hơi (Breath Mark).",
-    "explanation": "Dấu phẩy ( , ) trên khuông nhạc là dấu lấy hơi (Breath Mark), nhắc nhở ca viên ngắt chữ câu trước và lấy hơi nhanh để chuẩn bị cho câu hát tiếp theo."
-  },
+    { "id": 95, "category": "Choir Practical Skills", "question": "Khi nhìn vào bản nhạc hợp xướng, bạn thấy ký hiệu một dấu phẩy nhỏ ( , ) đặt phía trên khuông nhạc ở cuối câu hát. Ký hiệu này có ý nghĩa gì?", "answers": ["Ngắt giọng và lấy hơi (Breath Mark).", "Hát nhấn mạnh nốt nhạc đó.", "Hát luyến biểu cảm sang nốt tiếp theo.", "Dừng lại tự do không tính phách (Dấu ngân tự do)." ], "correctAnswer": "Ngắt giọng và lấy hơi (Breath Mark).", "explanation": "Dấu phẩy ( , ) trên khuông nhạc là dấu lấy hơi (Breath Mark), nhắc nhở ca viên ngắt chữ câu trước và lấy hơi nhanh để chuẩn bị cho câu hát tiếp theo." },
     { "id": 96, "category": "Rhythm & Meter", "question": "Bộ ba (Triplet) là gì?", "answers": ["Là một nhóm hai nốt được chơi trong thời gian của ba nốt cùng loại.", "Là một nhóm ba nốt được chơi trong thời gian của hai nốt cùng loại.", "Là một nhóm ba nốt được chơi trong thời gian của bốn nốt cùng loại.", "Là một nhóm hai nốt được chơi trong thời gian của một nốt."], "correctAnswer": "Là một nhóm ba nốt được chơi trong thời gian của hai nốt cùng loại.", "explanation": "Bộ ba là một nhóm ba nốt nhạc có tổng thời gian bằng hai nốt cùng loại (ví dụ: ba nốt móc đơn chơi trong thời gian của hai nốt móc đơn)." },
     { "id": 97, "category": "Rhythm & Meter", "question": "Trong nhịp 3/8, nốt nào có giá trị 1 phách?", "answers": ["Nốt đen (Quarter Note)", "Nốt móc đơn (Eighth Note)", "Nốt trắng (Half Note)", "Nốt tròn (Whole Note)"], "correctAnswer": "Nốt móc đơn (Eighth Note)", "explanation": "Trong nhịp 3/8, con số 8 dưới cho biết đơn vị phách là nốt móc đơn." },
     { "id": 98, "category": "Rhythm & Meter", "question": "Ký hiệu 'Alla Breve' (hoặc $C$ với một vạch dọc) thường tương đương với nhịp nào?", "answers": ["4/4", "2/4", "2/2", "3/4"], "correctAnswer": "2/2", "explanation": "Alla Breve có nghĩa là 'thời gian ngắn', thường là nhịp 2/2, nơi nốt trắng bằng 1 phách." },
@@ -139,74 +113,14 @@ export const allQuestions = [
     { "id": 107, "category": "Rhythm & Meter", "question": "Dấu lặng móc đơn (Eighth Rest) được ký hiệu như thế nào?", "answers": ["Một hình chữ nhật dưới dòng kẻ", "Một ký hiệu giống số 7 hoặc chữ 'Z' uốn lượn", "Một chấm đen lớn", "Một đường cong nối hai nốt"], "correctAnswer": "Một ký hiệu giống số 7 hoặc chữ 'Z' uốn lượn", "explanation": "Dấu lặng móc đơn có giá trị bằng nửa phách trong nhịp 4/4." },
     { "id": 108, "category": "Rhythm & Meter", "question": "Nhịp 9/8 có bao nhiêu phách chính (beat) và đơn vị phách là gì?", "answers": ["3 phách chính, mỗi phách là nốt đen chấm dôi.", "4 phách chính, mỗi phách là nốt đen.", "3 phách chính, mỗi phách là nốt móc đơn.", "2 phách chính, mỗi phách là nốt trắng."], "correctAnswer": "3 phách chính, mỗi phách là nốt đen chấm dôi.", "explanation": "Nhịp 9/8 là nhịp phức, tử số 9 chia hết cho 3, có 3 phách lớn, mỗi phách gồm 3 nốt móc đơn (tức là 1 nốt đen chấm dôi)." },
     { "id": 109, "category": "Rhythm & Meter", "question": "Trường độ của nốt trắng có dấu chấm dôi (dotted half note) trong nhịp 4/4 là bao nhiêu phách?", "answers": ["1.5 phách", "2 phách", "3 phách", "4 phách"], "correctAnswer": "3 phách", "explanation": "Nốt trắng bằng 2 phách. Dấu chấm dôi thêm 1/2 giá trị của nốt trắng (1 phách). Tổng cộng là 3 phách." },
-{
-    "id": 110,
-    "category": "Choir Practical Skills",
-    "question": "Trong một bản nhạc Thánh nhạc, khi gặp ký hiệu 'D.C. al Fine' (Da Capo al Fine) ở cuối phân đoạn, ca đoàn sẽ thực hiện như thế nào?",
-    "answers": [
-      "Quay lại từ đầu bài hát và hát cho đến khi gặp chữ 'Fine' thì dừng lại.",
-      "Quay lại vị trí có dấu hồi đoạn (Segno) và hát đến hết bài.",
-      "Hát tiếp đoạn kết (Coda) của bài hát.",
-      "Lặp lại đoạn nhạc vừa hát thêm một lần nữa rồi kết thúc."
-    ],
-    "correctAnswer": "Quay lại từ đầu bài hát và hát cho đến khi gặp chữ 'Fine' thì dừng lại.",
-    "explanation": "'Da Capo' có nghĩa là 'từ đầu'. Ký hiệu này yêu cầu ca đoàn quay trở lại hát từ điểm bắt đầu của tác phẩm và kết thúc hẳn tại vị trí có chữ 'Fine'."
-  },
+    { "id": 110, "category": "Choir Practical Skills", "question": "Trong một bản nhạc Thánh nhạc, khi gặp ký hiệu 'D.C. al Fine' (Da Capo al Fine) ở cuối phân đoạn, ca đoàn sẽ thực hiện như thế nào?", "answers": ["Quay lại từ đầu bài hát và hát cho đến khi gặp chữ 'Fine' thì dừng lại.", "Quay lại vị trí có dấu hồi đoạn (Segno) và hát đến hết bài.", "Hát tiếp đoạn kết (Coda) của bài hát.", "Lặp lại đoạn nhạc vừa hát thêm một lần nữa rồi kết thúc."], "correctAnswer": "Quay lại từ đầu bài hát và hát cho đến khi gặp chữ 'Fine' thì dừng lại.", "explanation": "'Da Capo' có nghĩa là 'từ đầu'. Ký hiệu này yêu cầu ca đoàn quay trở lại hát từ điểm bắt đầu của tác phẩm và kết thúc hẳn tại vị trí có chữ 'Fine'." },
     { "id": 111, "category": "Rhythm & Meter", "question": "Ký hiệu 2/2 (Alla Breve) có nghĩa là gì?", "answers": ["Có 2 phách, nốt đen bằng 1 phách.", "Có 2 phách, nốt trắng bằng 1 phách.", "Có 4 phách, nốt trắng bằng 1 phách.", "Có 4 phách, nốt đen bằng 1 phách."], "correctAnswer": "Có 2 phách, nốt trắng bằng 1 phách.", "explanation": "Trong nhịp 2/2, con số 2 ở dưới cho biết đơn vị phách là nốt trắng (Half Note), và con số 2 ở trên cho biết có 2 phách trong ô nhịp." },
- {
-    "id": 112,
-    "category": "Rhythm & Meter",
-    "question": "Trong nhịp phức (Compound Meter), bộ bốn (Quadruplet) được định nghĩa như thế nào?",
-    "answers": [
-      "Là một nhóm bốn nốt được chơi trong thời gian của ba nốt cùng loại.",
-      "Là một nhóm bốn nốt được chơi trong thời gian của hai nốt cùng loại.",
-      "Là một nhóm hai nốt được chơi trong thời gian của bốn nốt cùng loại.",
-      "Là một nhóm bốn nốt được chơi trong thời gian của năm nốt cùng loại."
-    ],
-    "correctAnswer": "Là một nhóm bốn nốt được chơi trong thời gian của ba nốt cùng loại.",
-    "explanation": "Trong các loại nhịp phức (như 6/8, 9/8), một phách gồm 3 phần bằng nhau. Bộ bốn được dùng để phân chia phách đó thành 4 phần đều nhau, nghĩa là 4 nốt được chơi trong thời gian của 3 nốt cùng loại."
-  },
+    { "id": 112, "category": "Rhythm & Meter", "question": "Trong nhịp phức (Compound Meter), bộ bốn (Quadruplet) được định nghĩa như thế nào?", "answers": ["Là một nhóm bốn nốt được chơi trong thời gian của ba nốt cùng loại.", "Là một nhóm bốn nốt được chơi trong thời gian của hai nốt cùng loại.", "Là một nhóm hai nốt được chơi trong thời gian của bốn nốt cùng loại.", "Là một nhóm bốn nốt được chơi trong thời gian của năm nốt cùng loại." ], "correctAnswer": "Là một nhóm bốn nốt được chơi trong thời gian của ba nốt cùng loại.", "explanation": "Trong các loại nhịp phức (như 6/8, 9/8), một phách gồm 3 phần bằng nhau. Bộ bốn được dùng để phân chia phách đó thành 4 phần đều nhau, nghĩa là 4 nốt được chơi trong thời gian của 3 nốt cùng loại." },
     { "id": 113, "category": "Rhythm & Meter", "question": "Khác biệt chính giữa Tempo Rubato và Tempo cố định là gì?", "answers": ["Rubato là tốc độ nhanh hơn.", "Rubato là tốc độ chậm hơn.", "Rubato cho phép sự linh hoạt, thay đổi nhịp độ tạm thời theo cảm xúc.", "Rubato chỉ áp dụng cho âm lượng."], "correctAnswer": "Rubato cho phép sự linh hoạt, thay đổi nhịp độ tạm thời theo cảm xúc.", "explanation": "Tempo Rubato (đánh cắp thời gian) là sự tự do nhịp điệu, nơi nhịp độ có thể tăng tốc hoặc chậm lại theo biểu cảm mà không làm mất đi nhịp nền cơ bản." },
     { "id": 114, "category": "Rhythm & Meter", "question": "Giá trị của nốt tròn dôi (dotted whole note) trong nhịp 4/4 là bao nhiêu phách?", "answers": ["4 phách", "5 phách", "6 phách", "7 phách"], "correctAnswer": "6 phách", "explanation": "Trong nhịp 4/4, nốt tròn bằng 4 phách. Dấu chấm dôi thêm 1/2 giá trị của nốt tròn (2 phách). Tổng cộng là 6 phách." },
-{
-    "id": 115,
-    "category": "Score Reading",
-    "question": "Khi một hàng nhạc (hệ thống khuông nhạc - System) được chia làm 4 khuông độc lập từ trên xuống dưới cho các bè, thứ tự sắp xếp chuẩn của các bè Hợp xướng (SATB) sẽ là gì?",
-    "answers": [
-      "Soprano (Nữ cao) - Alto (Nữ trầm) - Tenor (Nam cao) - Bass (Nam trầm).",
-      "Soprano (Nữ cao) - Tenor (Nam cao) - Alto (Nữ trầm) - Bass (Nam trầm).",
-      "Tenor (Nam cao) - Bass (Nam trầm) - Soprano (Nữ cao) - Alto (Nữ trầm).",
-      "Các bè thích sắp xếp thứ tự nào cũng được tùy thuộc vào người chép nhạc."
-    ],
-    "correctAnswer": "Soprano (Nữ cao) - Alto (Nữ trầm) - Tenor (Nam cao) - Bass (Nam trầm).",
-    "explanation": "Thứ tự chuẩn quốc tế từ trên xuống dưới của một tổng phổ hợp xướng bốn bè (SATB Score) luôn là Soprano, Alto, Tenor và Bass."
-  },
-  {
-    "id": 116,
-    "category": "Choir Practical Skills",
-    "question": "Trên bản nhạc hợp xướng xuất hiện ký hiệu 'Tutti'. Ký hiệu này có ý nghĩa gì đối với ca đoàn?",
-    "answers": [
-      "Tất cả các bè/thành viên cùng hát (Hòa giọng tổng lực).",
-      "Chỉ dành riêng cho ca viên lĩnh xướng (Solo) hát.",
-      "Tất cả ca đoàn giữ im lặng, chỉ có nhạc cụ đệm đàn.",
-      "Chỉ có các bè nữ hát, bè nam giữ lặng."
-    ],
-    "correctAnswer": "Tất cả các bè/thành viên cùng hát (Hòa giọng tổng lực).",
-    "explanation": "'Tutti' trong tiếng Ý có nghĩa là 'tất cả'. Khi gặp ký hiệu này sau một đoạn hát Solo hoặc bè riêng lẻ, toàn bộ ca đoàn sẽ cùng cất tiếng hát."
-  },
-{
-    "id": 117,
-    "category": "Score Reading",
-    "question": "Nếu ở đầu bản nhạc (hóa biểu) xuất hiện một dấu Giáng (Si giáng - Bb), tác phẩm này khả năng cao đang được viết ở Giọng (Key) chủ nào?",
-    "answers": [
-      "Fa trưởng (F major) hoặc Re thứ (D minor).",
-      "Do trưởng (C major) hoặc La thứ (A minor).",
-      "Sol trưởng (G major) hoặc Mi thứ (E minor).",
-      "Si giáng trưởng (Bb major) hoặc Sol thứ (G minor)."
-    ],
-    "correctAnswer": "Fa trưởng (F major) hoặc Re thứ (D minor).",
-    "explanation": "Hóa biểu có 1 dấu giáng duy nhất (Bb) là đặc trưng của giọng Fa trưởng hoặc giọng thứ song song của nó là Re thứ."
-  },
+    { "id": 115, "category": "Score Reading", "question": "Khi một hàng nhạc (hệ thống khuông nhạc - System) được chia làm 4 khuông độc lập từ trên xuống dưới cho các bè, thứ tự sắp xếp chuẩn của các bè Hợp xướng (SATB) sẽ là gì?", "answers": ["Soprano (Nữ cao) - Alto (Nữ trầm) - Tenor (Nam cao) - Bass (Nam trầm).", "Soprano (Nữ cao) - Tenor (Nam cao) - Alto (Nữ trầm) - Bass (Nam trầm).", "Tenor (Nam cao) - Bass (Nam trầm) - Soprano (Nữ cao) - Alto (Nữ trầm).", "Các bè thích sắp xếp thứ tự nào cũng được tùy thuộc vào người chép nhạc."], "correctAnswer": "Soprano (Nữ cao) - Alto (Nữ trầm) - Tenor (Nam cao) - Bass (Nam trầm).", "explanation": "Thứ tự chuẩn quốc tế từ trên xuống dưới của một tổng phổ hợp xướng bốn bè (SATB Score) luôn là Soprano, Alto, Tenor và Bass." },
+    { "id": 116, "category": "Choir Practical Skills", "question": "Trên bản nhạc hợp xướng xuất hiện ký hiệu 'Tutti'. Ký hiệu này có ý nghĩa gì đối với ca đoàn?", "answers": ["Tất cả các bè/thành viên cùng hát (Hòa giọng tổng lực).", "Chỉ dành riêng cho ca viên lĩnh xướng (Solo) hát.", "Tất cả ca đoàn giữ im lặng, chỉ có nhạc cụ đệm đàn.", "Chỉ có các bè nữ hát, bè nam giữ lặng."], "correctAnswer": "Tất cả các bè/thành viên cùng hát (Hòa giọng tổng lực).", "explanation": "'Tutti' trong tiếng Ý có nghĩa là 'tất cả'. Khi gặp ký hiệu này sau một đoạn hát Solo hoặc bè riêng lẻ, toàn bộ ca đoàn sẽ cùng cất tiếng hát." },
+    { "id": 117, "category": "Score Reading", "question": "Nếu ở đầu bản nhạc (hóa biểu) xuất hiện một dấu Giáng (Si giáng - Bb), tác phẩm này khả năng cao đang được viết ở Giọng (Key) chủ nào?", "answers": ["Fa trưởng (F major) hoặc Re thứ (D minor).", "Do trưởng (C major) hoặc La thứ (A minor).", "Sol trưởng (G major) hoặc Mi thứ (E minor).", "Si giáng trưởng (Bb major) hoặc Sol thứ (G minor)."], "correctAnswer": "Fa trưởng (F major) hoặc Re thứ (D minor).", "explanation": "Hóa biểu có 1 dấu giáng duy nhất (Bb) là đặc trưng của giọng Fa trưởng hoặc giọng thứ song song của nó là Re thứ." },
     { "id": 118, "category": "Rhythm & Meter", "question": "Thuật ngữ *rall.* (rallentando) là viết tắt của gì và có ý nghĩa gì về tốc độ?", "answers": ["Rallentando: giảm tốc độ dần", "Rapido: nhanh và mạnh mẽ", "Rallentando: duy trì tốc độ chậm", "Risoluto: dứt khoát"], "correctAnswer": "Rallentando: giảm tốc độ dần", "explanation": "Rallentando là một chỉ dẫn diễn cảm yêu cầu giảm dần tốc độ, tương tự như Ritardando (rit.)." },
     { "id": 119, "category": "Sight-reading", "question": "Khi đọc một bản nhạc mới, yếu tố nào cần quan sát đầu tiên trước khi hát?", "answers": ["Tên tác giả và tiêu đề.", "Hóa biểu (dấu hóa đầu dòng) và số chỉ nhịp.", "Ký hiệu âm lượng (Dynamics).", "Tốc độ (Tempo)."], "correctAnswer": "Hóa biểu (dấu hóa đầu dòng) và số chỉ nhịp.", "explanation": "Hóa biểu và số chỉ nhịp là hai yếu tố cơ bản xác định giọng điệu và nhịp điệu, cần được xác định ngay từ đầu." },
     { "id": 120, "category": "Sight-reading", "question": "Khi hát một đoạn nhạc có phức điệu (Polyphony), kỹ năng quan trọng nhất mà ca viên cần là gì?", "answers": ["Hát thật to và nổi bật", "Hát độc lập và lắng nghe kỹ các bè khác để hòa hợp", "Chỉ tập trung vào giai điệu của mình", "Hát chậm hơn tốc độ chỉ huy"], "correctAnswer": "Hát độc lập và lắng nghe kỹ các bè khác để hòa hợp", "explanation": "Trong phức điệu, mỗi bè có giai điệu tương đối độc lập, đòi hỏi ca viên phải giữ vững nhịp và cao độ của bè mình (hát độc lập) nhưng đồng thời phải lắng nghe tổng thể để đảm bảo hòa âm." }
