@@ -1,4 +1,5 @@
 import { allQuestions } from './questions.js';
+const questionBank = allQuestions[0].questions;
 import {
   shuffleArray,
   getFeedbackByScore,
