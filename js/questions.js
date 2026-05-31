@@ -1,9 +1,5 @@
 export const allQuestions = [
    // PASTE TOÀN BỘ QUESTION BANK CỦA ANH VÀO ĐÂY
-{
-  "curriculum": "Music Initial Test",
-  "organization": "Lumen Choir",
-  "questions": [
     { "id": 1, "category": "Diction", "question": "Tại sao phải mở khẩu hình theo chiều dọc khi hát các nguyên âm như 'O' hoặc 'A'?", "answers": ["Để tạo ra âm thanh nhẹ nhàng hơn.", "Để dễ dàng thay đổi cao độ.", "Để tạo không gian vang tốt hơn và giúp âm thanh không bị bẹt hoặc chói.", "Vì đó là thói quen của người hát opera."], "correctAnswer": "Để tạo không gian vang tốt hơn và giúp âm thanh không bị bẹt hoặc chói.", "explanation": "Để tạo không gian vang tốt hơn và giúp âm thanh không bị bẹt hoặc chói." },
     { "id": 2, "category": "Diction", "question": "Trong tiếng Latin, tổ hợp phụ âm 'gn' (ví dụ: *Agnus Dei*) được phát âm như thế nào?", "answers": ["Phát âm giống 'g-n' rõ ràng", "Phát âm giống 'nh' trong tiếng Việt (như trong 'nhà') hoặc 'ni' trong tiếng Ý.", "Phát âm giống 'ng' trong tiếng Việt", "Phát âm câm"], "correctAnswer": "Phát âm giống 'nh' trong tiếng Việt (như trong 'nhà') hoặc 'ni' trong tiếng Ý.", "explanation": "Tổ hợp 'gn' trong Latin thường được phát âm như âm mũi palatal (IPA: /ɲ/)." },
     { "id": 3, "category": "Diction", "question": "Khi hát các phụ âm cuối như 't' hoặc 's' trong tiếng Latin/Anh, ca viên nên làm gì?", "answers": ["Kéo dài phụ âm để tạo độ nhấn", "Phát âm rõ ràng nhưng ngắn gọn, không kéo dài, ngay trước phách tiếp theo hoặc sau khi ngân đủ trường độ nốt.", "Nuốt phụ âm đó đi", "Chỉ cần lướt qua phụ âm"], "correctAnswer": "Phát âm rõ ràng nhưng ngắn gọn, không kéo dài, ngay trước phách tiếp theo hoặc sau khi ngân đủ trường độ nốt.", "explanation": "Việc làm rõ phụ âm cuối mà không kéo dài giúp giữ nhịp và tránh bị nuốt âm." },
@@ -124,8 +120,5 @@ export const allQuestions = [
     { "id": 118, "category": "Rhythm & Meter", "question": "Thuật ngữ *rall.* (rallentando) là viết tắt của gì và có ý nghĩa gì về tốc độ?", "answers": ["Rallentando: giảm tốc độ dần", "Rapido: nhanh và mạnh mẽ", "Rallentando: duy trì tốc độ chậm", "Risoluto: dứt khoát"], "correctAnswer": "Rallentando: giảm tốc độ dần", "explanation": "Rallentando là một chỉ dẫn diễn cảm yêu cầu giảm dần tốc độ, tương tự như Ritardando (rit.)." },
     { "id": 119, "category": "Sight-reading", "question": "Khi đọc một bản nhạc mới, yếu tố nào cần quan sát đầu tiên trước khi hát?", "answers": ["Tên tác giả và tiêu đề.", "Hóa biểu (dấu hóa đầu dòng) và số chỉ nhịp.", "Ký hiệu âm lượng (Dynamics).", "Tốc độ (Tempo)."], "correctAnswer": "Hóa biểu (dấu hóa đầu dòng) và số chỉ nhịp.", "explanation": "Hóa biểu và số chỉ nhịp là hai yếu tố cơ bản xác định giọng điệu và nhịp điệu, cần được xác định ngay từ đầu." },
     { "id": 120, "category": "Sight-reading", "question": "Khi hát một đoạn nhạc có phức điệu (Polyphony), kỹ năng quan trọng nhất mà ca viên cần là gì?", "answers": ["Hát thật to và nổi bật", "Hát độc lập và lắng nghe kỹ các bè khác để hòa hợp", "Chỉ tập trung vào giai điệu của mình", "Hát chậm hơn tốc độ chỉ huy"], "correctAnswer": "Hát độc lập và lắng nghe kỹ các bè khác để hòa hợp", "explanation": "Trong phức điệu, mỗi bè có giai điệu tương đối độc lập, đòi hỏi ca viên phải giữ vững nhịp và cao độ của bè mình (hát độc lập) nhưng đồng thời phải lắng nghe tổng thể để đảm bảo hòa âm." }
-  ]
-}
-
  ];
 
