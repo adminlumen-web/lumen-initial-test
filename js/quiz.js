@@ -1,6 +1,6 @@
 import {
   shuffleArray
-} from 'js/utils.js';
+} from './utils.js';
 
 const MUSIC_CATEGORIES = [
   'Diction',
