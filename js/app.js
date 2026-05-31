@@ -68,6 +68,10 @@ function initializeQuiz() {
   currentQuestionIndex = 0;
 
   quizData = generateQuizSet(allQuestions);
+
+  console.log("ALL QUESTIONS:", allQuestions);
+  console.log("QUIZ DATA:", quizData);
+  console.log("QUIZ LENGTH:", quizData.length);
 }
 
 function loadQuestion() {
