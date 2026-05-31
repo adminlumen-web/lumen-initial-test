@@ -70,8 +70,9 @@ function initializeQuiz() {
   quizData = generateQuizSet(allQuestions);
 
   console.log("ALL QUESTIONS:", allQuestions);
+  console.log("ALL QUESTIONS LENGTH:", allQuestions.length);
   console.log("QUIZ DATA:", quizData);
-  console.log("QUIZ LENGTH:", quizData.length);
+  console.log("QUIZ DATA LENGTH:", quizData.length);
 }
 
 function loadQuestion() {
