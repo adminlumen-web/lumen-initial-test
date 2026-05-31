@@ -8,7 +8,6 @@ import {
 import {
   generateQuizSet,
   renderQuestion,
-  handleAnswer,
   updateProgress
 } from './quiz.js';
 
