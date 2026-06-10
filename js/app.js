@@ -1,5 +1,22 @@
-import { allQuestions } from './questions.js';
-const questionBank = allQuestions[0].questions;
+let allQuestions = [];
+
+const startBtn = document.getElementById('start-btn');
+
+startBtn.disabled = true;
+startBtn.textContent = 'Đang tải câu hỏi...';
+
+import('./questions.js').then(module => {
+  allQuestions = module.allQuestions;
+  console.log("Questions loaded:", allQuestions.length);
+  startBtn.disabled = false;
+  startBtn.textContent = 'BẮT ĐẦU THỰC HIỆN';
+}).catch(err => {
+  console.error("Failed to load questions:", err);
+  startBtn.disabled = false;
+  startBtn.textContent = 'Tải câu hỏi thất bại';
+  alert('Không thể tải dữ liệu câu hỏi. Vui lòng tải lại trang.');
+});
+
 import {
   shuffleArray,
   getFeedbackByScore,
@@ -31,7 +48,6 @@ let user = {
   email: ''
 };
 
-const startBtn = document.getElementById('start-btn');
 const nextBtn = document.getElementById('next-btn');
 const retryBtn = document.getElementById('retry-btn');
 const downloadBtn = document.getElementById('download-certificate-btn');
@@ -44,6 +60,11 @@ downloadBtn.addEventListener('click', () => {
 });
 
 function startQuiz() {
+
+  if (!allQuestions || allQuestions.length === 0) {
+    alert('Dữ liệu câu hỏi đang tải. Vui lòng thử lại sau giây lát.');
+    return;
+  }
 
   const name = document.getElementById('username').value.trim();
   const email = document.getElementById('useremail').value.trim();
@@ -68,7 +89,7 @@ function initializeQuiz() {
   score = 0;
   currentQuestionIndex = 0;
 
-  quizData = generateQuizSet(questionBank);
+  quizData = generateQuizSet(allQuestions);
 
   console.log("ALL QUESTIONS:", allQuestions);
   console.log("ALL QUESTIONS LENGTH:", allQuestions.length);
@@ -145,12 +166,22 @@ function finishQuiz() {
 
   document.getElementById('cert-score').innerText = `${score}/${TOTAL_QUESTIONS} (${percentage}%)`;
 
+  // document.getElementById('cert-feedback').innerText = feedback.title;
+
+  const certDate = new Date().toLocaleDateString('vi-VN', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  });
+
+  document.getElementById('cert-date').innerText = certDate;
+
   sendResultToSheet({
     name: user.name,
     email: user.email,
     score,
     percentage,
-    passed
+    passed, 
   });
 
   showScreen('result-screen');
