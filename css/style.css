@@ -182,6 +182,7 @@ h2 {
 
 .explanation {
   margin-top: 22px;
+  margin-bottom: 22px;
   padding: 18px;
   border-left: 4px solid var(--secondary);
   background: #fffaf5;
